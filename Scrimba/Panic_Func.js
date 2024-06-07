@@ -19,8 +19,5 @@ console.log(panic("winter is coming"));
 let splitStr;
 let joinStr;
 function panic(str) {
-      return str
-      .split(' ')
-      .join(' 😱 ')
-      .toUpperCase() + "!";
+  return str.split(" ").join(" 😱 ").toUpperCase() + "!";
 }
