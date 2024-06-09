@@ -1,2 +1,3 @@
-JavaScript Solved Problem solutions.
-Here I post leetcode Problem Solutions + Extra javaScript Codes
+#JavaScript Solved Problem solutions.
+This github repository is created for JavaScript Language Programs.
+The programs from leetcode and Scrimba 
