@@ -12,8 +12,23 @@ Example input: "aabbccb1212"
 Example output: "abc12"
 */
 const password = "9338dsabbbadjdjdj2sdfdfdf282ff8fdsd888ss8cfgfg332q23";
+
 function removeDupeChars(chars) {
-      
+  // create a new, empty string called dupesRemoved
+  let dupesRemoved = "";
+
+  // loop through the string we want to remove dupes from
+  for (let i = 0; i < chars.length; i++) {
+    // for every character in the string, check: is it in dupesRemoved?
+    if (!dupesRemoved.includes(chars[i])) {
+      // if no, add it
+      dupesRemoved += chars[i];
+      //console.log(chars[i]);
+    }
+    // if yes, keep going through the loop (do nothing)
+  }
+  return dupesRemoved;
+  // dupesRemoved -- it has no duplicates!
 }
 
 console.log(removeDupeChars(password));
